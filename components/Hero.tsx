@@ -47,7 +47,7 @@ const Hero = () => {
                     >
                         Hii, I&apos;m Charan, a Software Developer based in India.
                     </p>
-                    <a href="#about">
+                    <a href="#projects">
                         <ShimmerButton
                             title="Show my work" icon={<FaLocationArrow />} position={"right"} otherClasses="mr-4" />
                     </a>
