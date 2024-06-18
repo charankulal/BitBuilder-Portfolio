@@ -49,7 +49,7 @@ const Hero = () => {
                     </p>
                     <a href="#about">
                         <ShimmerButton
-                            title="Show my work" icon={<FaLocationArrow/>} position={"right"} otherClasses="mr-4"                       />
+                            title="Show my work" icon={<FaLocationArrow />} position={"right"} otherClasses="mr-4" />
                     </a>
                 </div>
             </div>
