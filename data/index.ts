@@ -69,6 +69,29 @@ export const gridItems = [
     },
 ];
 
+export const softwareDevelopmentPhases = [{
+    name: "Planning and Analysis",
+    color:[[125, 211, 252]],
+    containerClassName:'bg-emerald-900',
+    description: "Identify project objectives and gather requirements to ensure feasibility and set clear goals. Conduct risk analysis and define project scope for a comprehensive roadmap towards successful software development."
+},
+{
+    name: "Design",
+    color:[
+        [236, 72, 153],
+        [232, 121, 249],
+    ],
+    containerClassName:'bg-black',
+    description: "Create a detailed blueprint encompassing system architecture, UI/UX, and database design. Develop technical specifications and prototypes to ensure the design meets requirements and prepares for seamless implementation."
+},
+{
+    name: "Implementation and Testing",
+    color:[[125, 211, 252]],
+    containerClassName:'bg-sky-800',
+    description: "Transform design specifications into a functional software application through coding and integration. Conduct thorough testing to ensure all components work together and meet requirements, ensuring a high-quality final product."
+
+}]
+
 export const projects = [
     {
         id: 1,
