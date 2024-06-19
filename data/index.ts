@@ -71,23 +71,23 @@ export const gridItems = [
 
 export const softwareDevelopmentPhases = [{
     name: "Planning and Analysis",
-    color:[[125, 211, 252]],
-    containerClassName:'bg-emerald-900',
+    color: [[125, 211, 252]],
+    containerClassName: 'bg-emerald-900',
     description: "Identify project objectives and gather requirements to ensure feasibility and set clear goals. Conduct risk analysis and define project scope for a comprehensive roadmap towards successful software development."
 },
 {
     name: "Design",
-    color:[
+    color: [
         [236, 72, 153],
         [232, 121, 249],
     ],
-    containerClassName:'bg-black',
+    containerClassName: 'bg-black',
     description: "Create a detailed blueprint encompassing system architecture, UI/UX, and database design. Develop technical specifications and prototypes to ensure the design meets requirements and prepares for seamless implementation."
 },
 {
     name: "Implementation and Testing",
-    color:[[125, 211, 252]],
-    containerClassName:'bg-sky-800',
+    color: [[125, 211, 252]],
+    containerClassName: 'bg-sky-800',
     description: "Transform design specifications into a functional software application through coding and integration. Conduct thorough testing to ensure all components work together and meet requirements, ensuring a high-quality final product."
 
 }]
@@ -238,3 +238,94 @@ export const socialMedia = [
         img: "/link.svg",
     },
 ];
+
+export const techStack = {
+    frontend: {
+        technologies: [
+            {
+                name: "Next.js",
+                logo: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg"
+            },
+            {
+                name: "React.js",
+                logo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+            },
+            {
+                name: "Angular",
+                logo: "https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg"
+            },
+            {
+                name: "TypeScript",
+                logo: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"
+            },
+            {
+                name: "JavaScript",
+                logo: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+            },
+            {
+                name: "Bootstrap",
+                logo: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
+            },
+            {
+                name: "Tailwind CSS",
+                logo: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+            }
+        ]
+    },
+    backend: {
+        technologies: [
+            {
+                name: "Java",
+                logo: "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg"
+            },
+            {
+                name: "Spring",
+                logo: "https://upload.wikimedia.org/wikipedia/commons/4/44/Spring_Framework_Logo_2018.svg"
+            },
+            {
+                name: "Spring Boot",
+                logo: "https://upload.wikimedia.org/wikipedia/commons/6/62/Spring_Boot_Logo.png"
+            },
+            {
+                name: "Django",
+                logo: "https://upload.wikimedia.org/wikipedia/commons/7/75/Django_logo.svg"
+            }
+        ]
+    },
+    database: {
+        technologies: [
+            {
+                name: "MySQL",
+                logo: "https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg"
+            },
+            {
+                name: "MongoDB",
+                logo: "https://upload.wikimedia.org/wikipedia/en/4/45/MongoDB-Logo.svg"
+            },
+            {
+                name: "PostgreSQL",
+                logo: "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg"
+            }
+        ]
+    },
+    versionControl: {
+        technologies: [
+            {
+                name: "Git",
+                logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg"
+            },
+            {
+                name: "GitHub",
+                logo: "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+            }
+        ]
+    },
+    otherTools: {
+        technologies: [
+            {
+                name: "Medium",
+                logo: "https://upload.wikimedia.org/wikipedia/commons/e/ec/Medium_logo_Monogram.svg"
+            }
+        ]
+    }
+};
