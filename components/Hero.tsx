@@ -7,7 +7,7 @@ import { Vortex } from "./ui/Vortex";
 
 const Hero = () => {
     return (
-        <div className="pb-20 ">
+        <div className="pb-20 " id="home">
             <div>
                 <Spotlight
                     className="-top-40 -left-10
